@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'DogIdentifier'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'javax.visrec:visrec-api:1.0.5'
+    implementation 'javax.visrec:visrec-ri:1.0.3'
+}
+
+test {
+    useJUnitPlatform()
+}
