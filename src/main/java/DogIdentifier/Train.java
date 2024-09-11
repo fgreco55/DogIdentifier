@@ -36,7 +36,7 @@ public class Train {
                 datasetFile,                                  // file of pathname to classification-name
                 archFile,                                     // neural network architecture - default handles most cases
                 modelFile,                                    // filename of generated model
-                64, 64, 0.03f, 100, 0.001f);
+                64, 64, 0.02f, 100, 0.001f);
 
         StopWatch sw = new StopWatch();
         sw.start();

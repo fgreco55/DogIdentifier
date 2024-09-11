@@ -38,10 +38,10 @@ public class IdentifyApp {
 
            System.out.println(classifyImage(cl, imagesDir + "/" + "chi-1.jpg"));        // dog
            System.out.println(classifyImage(cl, imagesDir + "/" + "chi-2.jpg"));        // dog
-           System.out.println(classifyImage(cl, imagesDir + "/" + "chewy.jpg"));        // Chewy
            System.out.println(classifyImage(cl, imagesDir + "/" + "chi-3.jpg"));        // dog
-           System.out.println(classifyImage(cl, imagesDir + "/" + "polly.jpg"));        // Polly
-           System.out.println(classifyImage(cl, imagesDir + "/" + "mushroom.jpg"));        //
+           System.out.println(classifyImage(cl, imagesDir + "/" + "pizza.jpg"));        // pizza
+           //System.out.println(classifyImage(cl, imagesDir + "/" + "polly.jpg"));        // Polly
+           System.out.println(classifyImage(cl, imagesDir + "/" + "cow.jpg"));
 
            sw.stop();
            System.out.println("Classification completed in " + sw.getElapsedTimeSecs() + " secs ====================================");
